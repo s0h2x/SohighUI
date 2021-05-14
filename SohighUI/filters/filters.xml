@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<!--<Script file="cfg\temp.lua"/>!-->
+	<Script file="media.lua"/>
+	<Script file="anchors.lua"/>
+	<Script file="commands.lua"/>
+	<Script file="combattext.lua"/>
+	<Script file="cooldowns.lua"/>
+	<Script file="aurawatch.lua"/>
+	<Script file="develope.lua"/>
+	<Script file="merchant.lua"/>
+</Ui>

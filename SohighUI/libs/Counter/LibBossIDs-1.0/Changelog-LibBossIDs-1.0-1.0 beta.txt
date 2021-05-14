@@ -1,0 +1,42 @@
+------------------------------------------------------------------------
+r5 | elsia | 2009-03-13 15:28:38 +0000 (Fri, 13 Mar 2009) | 1 line
+Changed paths:
+   A /tags/1.0 beta (from /trunk:4)
+
+Tagging as 1.0 beta
+------------------------------------------------------------------------
+r4 | elsia | 2009-03-13 15:26:28 +0000 (Fri, 13 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibBossIDs-1.0.lua
+
+- Fixed version string.
+------------------------------------------------------------------------
+r3 | elsia | 2009-03-12 23:37:40 +0000 (Thu, 12 Mar 2009) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+
+- Externaled libstub in .pkgmeta
+
+------------------------------------------------------------------------
+r2 | elsia | 2009-03-12 23:22:18 +0000 (Thu, 12 Mar 2009) | 5 lines
+Changed paths:
+   M /trunk
+   A /trunk/.pkgmeta
+   A /trunk/LibBossIDs-1.0.lua
+   A /trunk/LibBossIDs-1.0.toc
+   A /trunk/lib.xml
+
+- Initial commit.
+- This provides a table containing mobIDs of boss mobs as keys.
+- This allows unit-free detection of bosses from combat log.
+- Usage: if lib.BossIDs[mobID] then --[[ is boss ]] end
+
+------------------------------------------------------------------------
+r1 | root | 2009-03-12 23:10:15 +0000 (Thu, 12 Mar 2009) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"libbossids-1-0/mainline: Initial Import"
+------------------------------------------------------------------------

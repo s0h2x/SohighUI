@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="auras.lua"/>
+	<Script file="aurawatch.lua"/>
+	<Script file="frame.lua"/>
+	<Script file="healcomm.lua"/>
+	<Script file="castbars.lua"/>
+	<Script file="class.lua"/>
+	<Script file="tags.lua"/>
+</Ui>

@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="core\glow.lua"/>
+	
+	<Script file="core\bags.lua"/>
+	<Script file="core\char.lua"/>
+	<Script file="core\inspect.lua"/>
+	<Script file="core\bank.lua"/>
+	<Script file="core\gbank.lua"/>
+	<Script file="core\trade.lua"/>
+	<!--<Script file="core\tradeskill.lua"/>!-->
+	<Script file="core\craft.lua"/>
+	<Script file="core\merchant.lua"/>
+	<Script file="core\mail.lua"/>
+</Ui>

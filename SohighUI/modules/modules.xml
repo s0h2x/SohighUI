@@ -1,0 +1,46 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="unitframes\init.lua"/>
+	<Include file="unitframes\modules\modules.xml"/>
+	<Include file="unitframes\settings\settings.xml"/>
+	<Include file="unitframes\elements\elements.xml"/>
+	<Script file="unitframes\core.lua"/>
+	<Script file="unitframes\data.lua"/>
+	<Script file="unitframes\layout.lua"/>
+	
+	<!--<Include file="unitframes\raidframes\raidframes.xml"/>!-->
+
+	<Script file="bags.lua"/>
+	<Script file="bar.menu.lua"/>
+	<Script file="bar.pack.lua"/>
+	<Script file="bar.core.lua"/>
+	<Script file="bar.exp.lua"/>
+	<Script file="bar.short.lua"/>
+	<Script file="bar.six.lua"/>
+	<Script file="stylebutton.lua"/>
+	<Script file="buffs.lua"/>
+	<Script file="hotkey.lua"/>
+	<Script file="chat.snap.lua"/>
+	<Script file="chat.core.lua"/>
+	<Script file="chat.style.lua"/>
+	<Script file="chat.lua"/>
+	<Script file="dps.lua"/>
+	<Script file="map.lua"/>
+	<Script file="minimap.lua"/>
+	<Script file="tooltip.lua"/>
+	<Script file="xct.lua"/>
+	
+	<Script file="misc\misc.lua"/>
+	<Script file="misc\announce.lua"/>
+	<Script file="misc\autogreed.lua"/>
+	<Script file="misc\autoinvite.lua"/>
+	<Script file="misc\autoloot.lua"/>
+	<Script file="misc\autoquest.lua"/>
+	<Script file="misc\autorelease.lua"/>
+	<Script file="misc\chat.copy.lua"/>
+	<Script file="misc\chat.url.lua"/>
+	<Script file="misc\declineduel.lua"/>
+	<Script file="misc\durability.lua"/>
+	<Script file="misc\error.lua"/>
+	<Script file="misc\shadow.lua"/>
+	<Script file="misc\trainall.lua"/>
+</Ui>
