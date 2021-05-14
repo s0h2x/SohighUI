@@ -21,8 +21,8 @@
 			ChatFrameEditBox:Insert(url)
 			ChatFrameEditBox:HighlightText()
 
-		else
-			SetItemRef_orig(link, text, button, chatFrame)
+		--else
+			--SetItemRef_orig(link, text, button, chatFrame)
 		end
 	end
 	SetItemRef = ReURL_SetItemRef
