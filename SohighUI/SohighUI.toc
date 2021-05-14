@@ -1,0 +1,29 @@
+## Interface: 20400
+## Title: |C00FFFFFFSohigh|R|CFFA800A5UI|R
+## Notes: |C00EBF6F7Styled you UI|R
+## Author: |C00EB7823Sohigh|R
+## Version: 1.0|r (|cff00b5ffBeta|r)
+## OptionalDeps: SohighUI_Config
+## X-oUF: oUF
+
+core\constants.lua
+cfg.lua
+assert.lua
+core\gui.lua
+core\API.lua
+core\pixelperfect.lua
+core\core.lua
+core\functions.lua
+
+styles\styles.lua
+locale\locale.xml
+
+filters\filters.xml
+
+libs\LibMobHealth-4.0\LibMobHealth-4.0.lua
+libs\oUF\oUF.xml
+libs\oGlow\oGlow.xml
+libs\Counter\counter.xml
+
+modules\modules.xml
+modules\skins\skins.xml

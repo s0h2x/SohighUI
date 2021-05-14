@@ -1,0 +1,15 @@
+## Interface: 20400
+## Title: |C00FFFFFFSohigh|R|CFFA800A5UI|R_Config
+## Notes: Configuration SohighUI
+## Author: Tohveli, Sohigh
+## Version: 1.21
+## SavedVariables: suiCFG, suiUF, shUF_db
+## RequiredDeps: SohighUI
+
+locales\english.lua
+
+locale.lua
+core.lua
+info.lua
+fonts.lua
+textures.lua
