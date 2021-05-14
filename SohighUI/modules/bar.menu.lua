@@ -40,7 +40,7 @@
 	
 	--* texture
 	menu.__tex = menu:CreateTexture(nil, 'BACKGROUND')
-	menu.__tex:SetTexture('Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes')
+	menu.__tex:SetTexture('Interface\\Addons\\SohighUI\\styles\\units\\UI-CLASSESICON-CIRCLES')
 	menu.__tex:SetTexCoord(unpack(M.index.cit[E.Class]))
 	menu.__tex:SetAnchor('TOPLEFT')
 	menu.__tex:SetAnchor('BOTTOMRIGHT', 0, 0)
