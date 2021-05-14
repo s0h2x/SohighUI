@@ -197,11 +197,11 @@
 
 		BrowseNextPageButton:ButtonNextRight()
 		BrowseNextPageButton:ClearAllPoints()
-		BrowseNextPageButton:SetAnchor('BOTTOMLEFT', BrowseSearchButton, 'BOTTOMRIGHT', 10, -27)
+		BrowseNextPageButton:SetAnchor('BOTTOMLEFT', BrowseSearchButton, 'BOTTOMRIGHT', 8, -43)
 
 		BrowsePrevPageButton:ButtonPrevLeft()
 		BrowsePrevPageButton:ClearAllPoints()
-		BrowsePrevPageButton:SetAnchor('BOTTOMRIGHT', BrowseSearchButton, 'BOTTOMLEFT', -10, -27)
+		BrowsePrevPageButton:SetAnchor('BOTTOMRIGHT', BrowseSearchButton, 'BOTTOMLEFT', -12, -43)
 
 		IsUsableCheckButton:ClearAllPoints()
 		IsUsableCheckButton:SetAnchor('RIGHT', BrowseIsUsableText, 'LEFT', 2, 0)
@@ -260,7 +260,7 @@
 
 		AuctionsItemButton:Hook('OnEvent', function(self, event)
 			if (event == 'NEW_AUCTION_UPDATE') and self:GetNormalTexture() then
-				self:GetNormalTexture():SetTexCoord(unpack(unpack(E.TexCoords)))
+				self:GetNormalTexture():SetTexCoord(unpack(E.TexCoords))
 				self:GetNormalTexture():SetInside()
 
 				local _, _, _, quality = GetAuctionSellItemInfo()
