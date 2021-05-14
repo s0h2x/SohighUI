@@ -10,6 +10,8 @@ Styled you UI (TBCC backport after release)
 6. Bags
 7. Chat
 
+All credits are listed in files.
+
 ## Screenshots:
 
 <a href="https://i.imgur.com/sF6Jen9.png">
