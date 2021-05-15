@@ -174,7 +174,7 @@
 	MinimapBorder:ClearAllPoints()
 	MinimapBorder:SetAnchor(unpack(C.Anchors.mapBorder))
 	MinimapBorder:SetSize(MinimapCluster:GetSize())
-	MinimapBorder:SetTexture(A.mapTex)
+	MinimapBorder:SetTexture(A.mapTex, 'BACKGROUND')
 	
 	MinimapZoomIn:Hide()
 	MinimapZoomOut:Hide()	
