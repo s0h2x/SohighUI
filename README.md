@@ -46,6 +46,7 @@ All credits are listed in files.
 ## Commands:
     /cfg or /sui      Toggle the configuration (GUI).
     /rl or /reloadui  Reload the whole UI.
+    /xct              Combat Text movable.
     /moveui           Start movable unit frames.
     /uihelp           Shows available commands.
     /clfix            Reset Combat Log.
