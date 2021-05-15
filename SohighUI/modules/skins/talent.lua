@@ -34,6 +34,7 @@
 			_G['PlayerTalentFrameTab'..i..'Text']:SetAnchor('TOPLEFT', 12, -12)
 		end
 		
+		PlayerTalentFrameScrollFrame:StripLayout(true)
 		PlayerTalentFrameScrollFrame:ScrollTemplate()
 		PlayerTalentFrameScrollFrameScrollBar:SetAnchor('TOPLEFT', PlayerTalentFrameScrollFrame, 'TOPRIGHT', 10, -16)
 		PlayerTalentFrameScrollButtonOverlay:Hide()
