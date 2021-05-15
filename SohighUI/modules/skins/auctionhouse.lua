@@ -268,11 +268,11 @@
 					self:SetBackdropBorderColor(GetItemQualityColor(quality))
 					AuctionsItemButtonName:SetTextColor(GetItemQualityColor(quality))
 				else
-					self:SetBackdropBorderColor(unpack(A.bordercolor))
+					self:SetBackdropBorderColor(unpack(A.borderColor))
 					AuctionsItemButtonName:SetTextColor(1, 1, 1)
 				end
 			else
-				self:SetBackdropBorderColor(unpack(A.bordercolor))
+				self:SetBackdropBorderColor(unpack(A.borderColor))
 				AuctionsItemButtonName:SetTextColor(1, 1, 1)
 			end
 		end);
@@ -300,7 +300,7 @@
 					Texture:SetInside()
 
 					hooksecurefunc(Name, 'SetVertexColor', function(_, r, g, b) ItemButton:SetBackdropBorderColor(r, g, b) end);
-					hooksecurefunc(Name, 'Hide', function() ItemButton:SetBackdropBorderColor(unpack(A.bordercolor)) end);
+					hooksecurefunc(Name, 'Hide', function() ItemButton:SetBackdropBorderColor(unpack(A.borderColor)) end);
 				end
 			end
 		end
