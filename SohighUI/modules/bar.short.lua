@@ -14,10 +14,8 @@
 	MultiBarLeftButton1:ClearAllPoints();
 	MultiBarLeftButton1:SetAnchor(unpack(C.Anchors.abLeftB))
 	
-	MultiBarBottomRight:ClearAllPoints();
-	MultiBarBottomRight:SetAnchor(unpack(C.Anchors.abShortStyle))
-	MultiBarBottomRight.SetAnchor = E.hoop
-	MultiBarBottomRight:dummy()
+	MultiBarBottomRight:ClearAllPoints()
+	MultiBarBottomRight:SetAnchor(unpack(C.Anchors.abShortBR))
 	
 	MainMenuMaxLevelBar0:SetAnchor(unpack(C.Anchors.abShortMaxLvl))
 	MainMenuXPBarTexture0:SetAnchor(unpack(C.Anchors.abShortXPTex1))
