@@ -20,6 +20,7 @@ C['Anchors'] = {
 
 	--*Short Bar Style (12x12)
 	['abShortStyle'] = {'BOTTOM', 'UIParent', 'BOTTOM', -400, -400},
+	['abShortBR'] = {'BOTTOM', 'MultiBarBottomLeft', 'TOP', 0, ReputationWatchBar:IsShown() and 7 or 6},
 	['abShortMaxLvl'] = {'BOTTOM', 'MainMenuBarMaxLevelBar', 'TOP', -128, 0},
 	['abShortXPTex1'] = {'BOTTOM', 'MainMenuExpBar', 'BOTTOM', -128, 3},
 	['abShortXPTex2'] = {'BOTTOM', 'MainMenuExpBar', 'BOTTOM', 128, 3},
